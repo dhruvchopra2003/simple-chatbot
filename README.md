@@ -12,11 +12,11 @@ This particular chatbot acts upon a fixed data that has to be provided to it bef
 ### How to build?
 For this little chatbot, I have used the Punkt Tokenizer, and the wordnet dictionary, both of them are included in the NLTK library that you previously imported, although you might have to download them using nltk.download().
 
-#Text-preprocessing
+# Text-preprocessing
 The process begins with tokenzing the raw doc into a list of sentences and further into a list of words.
 Next comes the text preprocessing , using the nltk.stem.WordNetLemmatizer() command. WordNet is a semantically- oriented dictionary of English which comes included with the NLTK library. This was a step called Lemmatization, a process in which we group together different forms of a word, so that the computer reads it as the same word, and groups together similar meaning words.
 
-#Greeting
+# Greeting
 Next comes the part of the chatbot, that the users will see, it's responses, and since we are building a well-mannered chatbot, we will include a greeting function.
 The greeting function, would just have two lists, one of the user input(eg. Hi, hello) and the other for the chatbot output (eg. welcome, hi there). A simple loop just to identify these words in a sentence and returning a random index from the second list would complete thif function!
 
