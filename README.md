@@ -21,5 +21,5 @@ Next comes the part of the chatbot, that the users will see, it's responses, and
 The greeting function, would just have two lists, one of the user input(eg. Hi, hello) and the other for the chatbot output (eg. welcome, hi there). A simple loop just to identify these words in a sentence and returning a random index from the second list would complete thif function!
 
 # Conversation
-
+The conversation takes place within a loop, until the user mentions the words, "thanks" or "GoodBye", which would trigger the concluding remarks from the chatbot and the conversation would come to an end. During the runtime of the loop, the user can type in any keyword or ask simply framed questions, in order to get the best answers. Since the chatbot is very basic, it will parse through it's knowledge base to find the tokens that the user has input, and then try to find the optimal solution withing the shortest possible time. 
 
