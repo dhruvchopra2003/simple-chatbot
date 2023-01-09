@@ -20,6 +20,6 @@ Next comes the text preprocessing , using the nltk.stem.WordNetLemmatizer() comm
 Next comes the part of the chatbot, that the users will see, it's responses, and since we are building a well-mannered chatbot, we will include a greeting function.
 The greeting function, would just have two lists, one of the user input(eg. Hi, hello) and the other for the chatbot output (eg. welcome, hi there). A simple loop just to identify these words in a sentence and returning a random index from the second list would complete thif function!
 
-
+# Conversation
 
 
